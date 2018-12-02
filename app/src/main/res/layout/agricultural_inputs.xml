@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Fill Fertilizer Use (Kg/Acre) / No"/>
+    <LinearLayout
+        android:id="@+id/cont1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:maxWidth="180dp"
+            android:text="Chemical Fertillisers" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/chemf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:focusableInTouchMode="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cont1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="DuplicateIds">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:maxWidth="180dp"
+            android:text="Chemical Insecticides" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/chemin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:focusableInTouchMode="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cont1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="DuplicateIds">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:maxWidth="180dp"
+            android:text="Chemical Weedicide" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/chemwee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:focusableInTouchMode="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cont1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="DuplicateIds">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:maxWidth="180dp"
+            android:text="Organic Manures" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/org"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:focusableInTouchMode="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cont3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cont1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:maxWidth="180dp"
+            android:text="Irrigation" />
+
+        <Spinner
+            android:id="@+id/irr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cont3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cont3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:maxWidth="180dp"
+            android:text="Irrigation System" />
+
+        <Spinner
+            android:id="@+id/irrs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</LinearLayout>

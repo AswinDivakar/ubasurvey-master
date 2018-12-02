@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/cont1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:text="Electricity Connection to House Household"/>
+        <Spinner
+            android:id="@+id/eectricity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/cont3"
+        android:layout_below="@+id/cont3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:text="Electricity Availability per day (hours)"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:focusableInTouchMode="true"
+            android:id="@+id/epday"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/cont4"
+        android:layout_below="@+id/cont3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:text="Lighting (Electricity/Kerosene/Solar Power/Mention Other)"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:focusableInTouchMode="true"
+            android:id="@+id/elight"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:text="Cooking (LPG/Biogas/Wood/Cow-Dung/Electricity/Mension Other)"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:focusableInTouchMode="true"
+            android:id="@+id/ecook"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:text="If cooking in Chullah (Normal/Smokeless)"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:focusableInTouchMode="true"
+            android:inputType="phone"
+            android:id="@+id/echullah"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
